@@ -1,33 +1,36 @@
-# qevit-recursos-tecnicos
-Suporte informático, tutoriais Windows, manutenção de computadores, redes e segurança informática — QEVIT SUPORT Angola.
+# QEVIT SUPORT — Recursos Técnicos
 
-# QEVIT SUPORT
+**Tecnologia que funciona para si.**
 
-### Tecnologia que funciona para si.
+A QEVIT SUPORT é uma iniciativa angolana dedicada ao suporte informático, manutenção de computadores, redes e segurança informática.
 
-A QEVIT SUPORT é uma iniciativa angolana
-dedicada ao suporte informático, manutenção
-de computadores, redes e segurança informática.
+Este repositório reúne documentação técnica, tutoriais e orientações práticas para utilizadores e pequenas empresas.
 
 ## Áreas de actuação
 
 - Windows 10 e Windows 11
 - Manutenção preventiva e correctiva
-- Diagnóstico de problemas informáticos
-- Redes e conectividade
+- Diagnóstico e resolução de problemas informáticos
+- Redes, Wi-Fi e conectividade
 - Segurança informática
 - Microsoft 365
 
-## Tutoriais e documentação
+## Documentação disponível
 
-Consulte os nossos conteúdos técnicos:
+### Windows 11
+- [Como verificar e reparar ficheiros do sistema](windows-11/verificar-reparar-ficheiros-corrompidos.md)
 
+### Conteúdos no website
 - [Como descobrir se o Windows está corrompido](https://qevitsuport.blogspot.com/2026/11/como-descobrir-windows-corrompido.html)
 
-## Website oficial
+## Website e contacto
 
-https://qevitsuport.blogspot.com/
+- Website: https://qevitsuport.blogspot.com/
+- WhatsApp: [+244 955 801 690](https://wa.me/244955801690)
+- Facebook: https://www.facebook.com/qevitsuport
 
-## Contacto
+## Sobre este repositório
 
-QEVIT SUPORT — Angola
+Os procedimentos são disponibilizados para fins informativos. Antes de executar comandos ou alterações no sistema, leia as instruções e mantenha uma cópia de segurança dos dados importantes.
+
+© QEVIT SUPORT — Angola.
