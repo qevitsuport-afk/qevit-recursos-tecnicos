@@ -1,68 +1,55 @@
-[README.md](https://github.com/user-attachments/files/34974348/README.md)
-# QEVIT SUPORT — Recursos Técnicos
 
-**Tecnologia que funciona para si.**
+# Como verificar e reparar ficheiros do sistema no Windows 11
 
-A QEVIT SUPORT é uma iniciativa angolana dedicada ao suporte informático, manutenção de computadores, redes e segurança informática.
+Quando o Windows apresenta erros ou comportamentos anormais, alguns ficheiros do sistema podem estar danificados. Podemos utilizar duas ferramentas integradas: DISM e SFC.
 
-Este repositório reúne documentação técnica, tutoriais e orientações práticas para utilizadores e pequenas empresas.
+## 1. Abrir o Terminal como administrador
 
-## Áreas de actuação
+1. Clica com o botão direito no menu Iniciar.
+2. Selecciona Terminal (Administrador).
+3. Confirma a autorização, se solicitada.
 
-- Windows 10 e Windows 11
-- Manutenção preventiva e correctiva
-- Diagnóstico e resolução de problemas informáticos
-- Redes, Wi-Fi e conectividade
-- Segurança informática
-- Microsoft 365
+## 2. Executar o DISM
 
-## Documentação disponível
+Copia e executa:
 
-### Windows 11
-- [Como verificar e reparar ficheiros do sistema](windows-11/verificar-reparar-ficheiros-corrompidos.md)
+```cmd
+DISM /Online /Cleanup-Image /RestoreHealth
+```
 
-### Conteúdos no website
-- [Como descobrir se o Windows está corrompido](https://qevitsuport.blogspot.com/2026/11/como-descobrir-windows-corrompido.html)
+Aguarda até o processo terminar. Uma ligação à Internet pode ser necessária para obter ficheiros de reparação através do Windows Update.
 
-## Website e contacto
+## 3. Executar o SFC
+
+Depois de o DISM terminar, executa:
+
+```cmd
+sfc /scannow
+```
+
+Aguarda pela conclusão da verificação.
+
+O SFC procura ficheiros protegidos do Windows danificados e tenta repará-los.
+
+## 4. Reiniciar o computador
+
+Quando os dois processos terminarem:
+
+1. Reinicia o computador.
+2. Testa novamente o Windows.
+3. Verifica se o problema inicial foi resolvido.
+
+## 5. Atenção
+
+Estes comandos não resolvem necessariamente problemas de hardware, falhas do disco, malware ou todos os erros do Windows.
+
+Faz sempre uma cópia de segurança dos teus dados importantes.
+
+## Assistência técnica
+
+A QEVIT SUPORT presta serviços de diagnóstico e suporte informático em Angola.
 
 - Website: https://qevitsuport.blogspot.com/
-- WhatsApp: [+244 955 801 690](https://wa.me/244955801690)
-- Facebook: https://www.facebook.com/qevitsuport
+- WhatsApp: https://wa.me/244955801690
 
-## Sobre este repositório
-
-Os procedimentos são disponibilizados para fins informativos. Antes de executar comandos ou alterações no sistema, leia as instruções e mantenha uma cópia de segurança dos dados importantes.
-
-© QEVIT SUPORT — Angola.
-
-# Contacto — QEVIT SUPORT
-
-**Tecnologia que funciona para si.**
-
-A QEVIT SUPORT é uma iniciativa angolana dedicada ao suporte informático, manutenção de computadores e soluções tecnológicas para particulares e pequenas empresas.
-
-## Serviços
-
-- Instalação e configuração do Windows
-- Diagnóstico e manutenção de computadores
-- Optimização de desempenho
-- Instalação de programas e controladores
-- Configuração de redes e Wi-Fi
-- Apoio em segurança informática
-- Suporte remoto e presencial, mediante disponibilidade
-
-## Canais de contacto
-
-- **Website:** https://qevitsuport.blogspot.com/
-- **WhatsApp:** [+244 955 801 690](https://wa.me/244955801690)
-- **Facebook:** https://www.facebook.com/qevitsuport
-- **Instagram:** https://www.instagram.com/marioqevit/
-
-## Localização e atendimento
-
-Base de atendimento no Zango, com serviços em Icolo e Bengo e outras zonas mediante coordenação prévia.
-
-Para solicitar assistência, indique o problema, a marca e o modelo do equipamento e, se possível, envie uma fotografia ou mensagem de erro.
-
-© QEVIT SUPORT — Angola.
+**QEVIT SUPORT — Tecnologia que funciona para si.**
